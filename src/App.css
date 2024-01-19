@@ -1,0 +1,58 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  height: 100vh; /* Hace que la sección ocupe el 100% de la altura de la pantalla */
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-section {
+  text-align: left;
+}
+
+.center-section {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #61dafb;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px; /* Espacio entre el círculo y los botones */
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos para los botones (puedes personalizar según tu preferencia) */
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
